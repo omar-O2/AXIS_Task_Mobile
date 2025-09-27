@@ -13,57 +13,6 @@ public class Home_Page {
     private final By Logo_Tamawal = By.xpath("//android.widget.ScrollView/android.view.View[1]/android.widget.ImageView[2]");
     private final By Start_Discovery_Button = AppiumBy.accessibilityId(Json_Data.Get_json_Data("Home_Page_Locators", "Start_Discovery_Button"));
     private final By Details_Button = By.xpath(Json_Data.Get_json_Data("Home_Page_Locators" , "Details_Button"));
-    // AppiumBy.accessibilityId(Json_Data.Get_json_Data("Home_Page_Locators", "Details_Button"));
-    private final By personal_R= By.xpath("//android.view.View[@content-desc=\"Personal Finance\n" + "APR From\n" + "4.33%\n" +
-            "Monthly From\n" +
-            "6,666.00\n" +
-            "You saved\n" +
-            "653.37\n" +
-            " <1% \n" +
-            "No Rating for now\n" +
-            "Personals Finance\n" +
-            "APR From\n" +
-            "4.33%\n" +
-            "Monthly From\n" +
-            "6,666.00\n" +
-            "You saved\n" +
-            "653.37\n" +
-            " <1% \n" +
-            "4.0\n" +
-            "Buyout Debt Repayment Product\n" +
-            "APR From\n" +
-            "4.33%\n" +
-            "Monthly From\n" +
-            "6,666.00\n" +
-            "You saved\n" +
-            "653.37\n" +
-            " <1% \n" +
-            "No Rating for now\n" +
-            "Personal Refinance\n" +
-            "APR From\n" +
-            "4.33%\n" +
-            "Monthly From\n" +
-            "6,666.00\n" +
-            "You saved\n" +
-            "653.37\n" +
-            " <1% \n" +
-            "No Rating for now\n" +
-            "Personal Finance\n" +
-            "APR From\n" +
-            "4.33%\n" +
-            "Monthly From\n" +
-            "6,666.00\n" +
-            "You saved\n" +
-            "653.37\n" +
-            " <1% \n" +
-            "No Rating for now\"]");
-
-
-
-
-
-
-
 
 
 

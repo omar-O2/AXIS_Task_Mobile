@@ -1,6 +1,5 @@
 package Utilities;
 
-import Pages.AppiumInitializer;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -108,39 +107,6 @@ public class Utility {
     }
 
 
-    /// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    public class AppiumTest {
-
-        public static void main(String[] args) {
-            AppiumDriver iosDriver = null;
-            AppiumDriver androidDriver = null;
-
-            try {
-                // Initialize iOS driver
-                iosDriver = AppiumInitializer.initializeDriver("ios");
-                System.out.println("iOS driver initialized successfully");
-
-                // Initialize Android driver
-                androidDriver = AppiumInitializer.initializeDriver("android");
-                System.out.println("Android driver initialized successfully");
-
-                // Your test code here...
-
-            } catch (Exception e) {
-                System.err.println("Driver initialization failed: " + e.getMessage());
-                e.printStackTrace();
-            } finally {
-                // Quit drivers when done
-                if (iosDriver != null) {
-                    iosDriver.quit();
-                }
-                if (androidDriver != null) {
-                    androidDriver.quit();
-                }
-            }
-        }
-    }
 
     /// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

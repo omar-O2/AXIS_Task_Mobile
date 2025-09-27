@@ -1,5 +1,4 @@
 import Pages.Allow_Notification_Popup;
-import Pages.TestBase;
 import org.testng.annotations.Test;
 
 public class Allow_Notification_PopUp_Test extends TestBase {
