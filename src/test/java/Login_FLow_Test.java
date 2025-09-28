@@ -67,7 +67,7 @@ public class Login_FLow_Test extends TestBase {
     @Test(priority = 2)
     public void Enter_Invalid_NationalID() throws InterruptedException, FileNotFoundException {
         new Login_Flow_Page(driver).Press_On_NationalID().Enter_NationalID("1005560090").Press_On_Title().Press_Continue_Button();
-        Utility.Assert(driver,By.xpath("//android.view.View[@content-desc=\"Invalid ID\"]"),false,"Yess");
+        Utility.Assert(driver,By.xpath("//android.widget.ImageView[@content-desc=\"Invalid National/Iqama ID\"]"),false,"Yess");
 
 
     }
