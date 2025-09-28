@@ -5,7 +5,7 @@
         <classes>
             <class name="Registration_Test">
                 <methods>
-                    <include name="Valid_Registration_With_NationalID_P">
+                    <include name="Enter_Invalid_NationalID">
 
                     </include>
                 </methods>
