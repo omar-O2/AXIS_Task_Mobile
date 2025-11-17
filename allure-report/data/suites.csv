@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"kdkfk","11849","Valid_Login_With_NationalID","Default Suite","Wed Sep 03 14:59:33 EEST 2025","passed","Wed Sep 03 14:59:45 EEST 2025","Login_FLow_Test","Tamawal_App","Login_FLow_Test","Valid_Login_With_NationalID"
