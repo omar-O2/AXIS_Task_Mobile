@@ -4,6 +4,10 @@ import Pages.Allow_Notification_Popup;
 import Utilities.Json_Data;
 import Utilities.Utility;
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Owner;
+import io.qameta.allure.TmsLink;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -23,7 +27,12 @@ public class Registration_Test extends TestBase {
         new Registration(driver).Press_Join_Button();
     }
 
-@Test
+
+@Test(priority = 1)
+@Epic("Registration")
+@TmsLink("https://omarradwanpop.atlassian.net/projects/SCRUM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.thed.zephyr.je__main-project-page&atlOrigin=eyJpIjoiNGFhZDZhZjFhYWRjNDkwYWE2M2M3NjM0MDUyMzQ4ZGYiLCJwIjoiaiJ9#!/v2/testCase/SCRUM-T16")
+@Owner("Omar")
+@Description("User can register with invalid credentials")
         public void Valid_Registration_With_NationalID_P() throws FileNotFoundException, InterruptedException {
             new Registration(driver).Press_On_NationalID().Enter_NationalID(Json_Data.Get_json_Data("Registration_Cases_Data","Valid_Registration_With_NationalID_P.NationalID")).Press_On_Title_Login().Press_Continue_Button().Press_On_Mobile_Number_Field();
 new Registration(driver).Enter_Mobile_Number(Json_Data.Get_json_Data("Registration_Cases_Data","Valid_Registration_With_NationalID_P.Mobile_Number")).Press_On_Title_Registration().Press_On_Join_Now_Button().Press_On_Terms_And_Conditions_Check_Box().Press_Continue_Button();
