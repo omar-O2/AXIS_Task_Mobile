@@ -1,4 +1,0 @@
-{
-  "Start_Discovery_Button" : "Start Discovery",
-  "Details_Button" : "(//android.widget.ImageView[@content-desc=\"Details\"])[4]"
-}

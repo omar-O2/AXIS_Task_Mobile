@@ -2,17 +2,6 @@
   "Valid_Registration_With_NationalID_P" :  {
     "NationalID" : "1074404649",
     "Mobile_Number" : "512345678"
-  },
-  "Registration_With_NationalID_That_Is_Wrong_With_Nafath_N" : {
-    "NationalID" : "1011144373",
-    "Mobile_Number" : "512345678"
-
-  },
-  "Registration_With_Phone_Number_That_Is_Wrong_With_TCC_N" : {
-
-    "NationalID" : "1005530090",
-    "Mobile_Number" : "511111111"
-
   }
 
 }

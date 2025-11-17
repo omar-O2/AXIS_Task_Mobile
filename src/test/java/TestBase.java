@@ -14,10 +14,10 @@ public class TestBase {
         caps.setCapability("appium:platformName", "Android");
         caps.setCapability("appium:deviceName", "R8YXB0D907H-dVOf6M");
         caps.setCapability("appium:platformVersion", "14");
-        caps.setCapability("appium:app", "C:\\Users\\Production\\Downloads\\Tamawal (3).apk");
+        caps.setCapability("appium:app", "");
         caps.setCapability("appium:automationName", "UiAutomator2");
-        caps.setCapability("appium:appPackage", "sa.tamawal.capp");
-        caps.setCapability("appium:appActivity", "sa.tamawal.capp.MainActivity");
+        caps.setCapability("appium:appPackage", "");
+        caps.setCapability("appium:appActivity", "");
 
         // Set Appium server URL
         URL appiumServerURL;
