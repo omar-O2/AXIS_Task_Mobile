@@ -96,14 +96,6 @@ public class PIN_Page_AND_Biometrics {
         Utility.Click_On_Element(driver, Number_Nine);
         return this;
     }
-    public Home_Page Press_Enable_Button() throws FileNotFoundException {
-        Utility.Click_On_Element(driver, Enable_Biometrics_Button);
-        return new Home_Page(driver) ;
-    }
-    public Home_Page Press_Ignore_Button() throws FileNotFoundException {
-        Utility.Click_On_Element(driver, Ignore_Biometrics_Button);
-        return new Home_Page(driver);
-    }
 
 
 
